@@ -9,9 +9,9 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-
+/* 
   margin-left: -20px;
-  margin-right: -20px;
+  margin-right: -20px; */
 }
 
 h1 {
@@ -23,6 +23,10 @@ hr {
   width: 40%;
   border-top: 1px solid #1a535c;
   margin-top: -32px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
 }
 #signup {
   padding-top: 60px;
@@ -46,8 +50,13 @@ hr {
 
 #Hero_Section {
   padding-left: 0;
-  padding-bottom: 200px;
 }
+
+#hero-signin-button {
+  margin-top: 0.2em;
+  margin-right: 0.1em;
+}
+
 #Heading {
   font-family: 'DM Sans', sans-serif;
   padding-left: 45px;
@@ -72,8 +81,9 @@ hr {
   margin-left: 40px;
   margin-bottom: 16px;
 }
-.btn-primary {
-  margin: 0 24px 0 0;
+
+#signup-free-button {
+  margin: 0;
   background-color: #007bff;
   color: #ffffff;
   text-decoration: none !important;
@@ -88,6 +98,23 @@ hr {
   white-space: nowrap;
   width: 100%;
 }
+
+.btn-primary {
+  /* margin: 0px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none !important;
+  border: 1px solid #039be5;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  display: inline-block;
+  letter-spacing: 0.15px;
+  max-width: 255px;
+  padding: 20px 60px;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%; */
+}
 .btn-white:hover {
   background-color: #1c538f;
   color: white;
@@ -96,6 +123,11 @@ hr {
   float: right;
   padding-right: 40px;
   padding-left: 40px;
+}
+
+#demo-section {
+  background-color: #a4e5e1;
+  padding-top: 10em;
 }
 
 #demo-contact-section {
@@ -107,6 +139,11 @@ hr {
   margin: 2px;
 }
 
+#testimonial-section {
+  padding-bottom: 3em;
+  background-color: #88d2dd;
+}
+
 body {
   font-family: 'DM Sans';
 }
@@ -114,6 +151,10 @@ body {
 /* Carousel styling */
 h2 {
   position: relative;
+}
+
+footer {
+  background-color: #F7FFF7;
 }
 
 .carousel-inner .carousel-item .img-box {
@@ -185,6 +226,9 @@ i {
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
+  #hero {
+    width: 110%;
+  }
   .carousel-inner .carousel-item p {
     font-size: 14px;
   }
