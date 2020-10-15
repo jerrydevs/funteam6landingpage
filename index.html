@@ -31,74 +31,74 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="index.css" />
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/logo.png" />
   </head>
   <body>
     <!-- HERO SECTION BEGIN -->
-    <div class="container">
-      <div class="row justify-content-between">
-        <img
-          id="logo"
-          src="https://cdn.glitch.com/fd40e6bf-a726-4b03-aeb8-2711501b9a92%2FImage%20from%20iOS.jpg?v=1602615457897"
-          width="200"
-          height="40"
-          alt="Logo"
-        />
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#demo-section">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonial-section">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">Socials</a>
-              </li>
-              <li class="nav-item active">
-                <a id="sign" class="nav-link" href="#">Sign In</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+      <img
+        id="logo"
+        src="https://cdn.glitch.com/fd40e6bf-a726-4b03-aeb8-2711501b9a92%2FImage%20from%20iOS.jpg?v=1602615457897"
+        width="200"
+        height="40"
+        alt="Logo"
+      />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#demo-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial-section">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Socials</a>
+          </li>
+          <li class="nav-item active">
+            <a id="sign" class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
     <section id="Hero_Section">
       <div class="jumbotron jumbotron-fluid">
-        <img
-          id="hero"
-          src="images/Hero_Image.png"
-          alt="Hero-img"
-          width="600"
-          height="250"
-        />
-        <p id="Heading">
-          From your inventory to <span style="color: #4285f4">G</span
-          ><span style="color: #db4437">o</span><span style="color: #f4b400">o</span
-          ><span style="color: #4285f4">g</span><span style="color: #0f9d58">l</span
-          ><span style="color: #db4437">e</span>
-        </p>
-        <h4 id="intro">
-          Inventree let's you update your Google Products with one upload, boosting SEO,
-          keeping customers informed, and saving time.
-        </h4>
-        <section id="signup">
-          <button id="signup-free-button" type="button" class="btn btn-primary">
-            Sign Up Free
-          </button>
-        </section>
+        <div class="row">
+          <div class="col-sm-5">
+            <p id="Heading">
+              From your inventory to <span style="color: #4285f4">G</span
+              ><span style="color: #db4437">o</span><span style="color: #f4b400">o</span
+              ><span style="color: #4285f4">g</span><span style="color: #0f9d58">l</span
+              ><span style="color: #db4437">e</span>
+            </p>
+            <h4 id="intro">
+              Inventree lets you update your Google Products with one upload boosting SEO,
+              keeping customers informed, and saving time.
+            </h4>
+            <section id="signup">
+              <button id="signup-free-button" type="button" class="btn btn-primary">
+                Sign Up Free
+              </button>
+            </section>
+          </div>
+          <img
+            id="hero"
+            src="images/Hero_Image.png"
+            alt="Hero-img"
+     
+            class="col-sm-7"
+          />
+        </div>
       </div>
     </section>
     <!-- HERO SECTION END -->
@@ -162,7 +162,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 offset-md-2 col-10 offset-1 mt-5">
-            <h2 class="text-center mt-5 mb-5 pb-2 text-uppercase text-dark">
+            <h2 class="text-center mt-5 mb-5 pb-2 text-dark">
               <strong>We have the solution</strong><br />
               <small class="smallest mute">but don't take it from us...</small>
             </h2>
@@ -181,9 +181,12 @@
                     />
                   </div>
                   <h5 class="mt-4 mb-0">
-                    <strong class="text-uppercase">Rachel Lichtenbaum</strong>
+                    <strong>Rachel Lichtenbaum</strong>
                   </h5>
-                  <h6 class="text-dark m-0">Rachel's Flowers And Arrangements - OWNER</h6>
+                  <h6 class="text-dark m-0">
+                    <span class="text-uppercase">Rachel's Flowers And Arrangements</span>
+                    - Owner
+                  </h6>
                   <p class="m-0 pt-3">
                     "I've been waiting so long for this! It makes my life so much easier,
                     I can keep my customers up to date and it takes no effort."
@@ -198,9 +201,11 @@
                     />
                   </div>
                   <h5 class="mt-4 mb-0">
-                    <strong class="text-uppercase">Thomas Liang</strong>
+                    <strong>Thomas Liang</strong>
                   </h5>
-                  <h6 class="text-dark m-0">Tommy's Grocer - CO-OWNER</h6>
+                  <h6 class="text-dark m-0">
+                    <span class="text-uppercase">Tommy's Grocer</span> - Co-Owner
+                  </h6>
                   <p class="m-0 pt-3">
                     "After this virus, I've had no time to focus on my online presence, so
                     this has saved my butt. Keep up with SEO things would be nice!"
@@ -215,9 +220,11 @@
                     />
                   </div>
                   <h5 class="mt-4 mb-0">
-                    <strong class="text-uppercase">June Yonge</strong>
+                    <strong>June Yonge</strong>
                   </h5>
-                  <h6 class="text-dark m-0">Juney B's - OWNER</h6>
+                  <h6 class="text-dark m-0">
+                    <span class="text-uppercase">Juney B's</span> - Owner
+                  </h6>
                   <p class="m-0 pt-3">
                     "I carry all kinds of things, and always have so much in stock. Being
                     able to actually put my products onto my page has really helped me

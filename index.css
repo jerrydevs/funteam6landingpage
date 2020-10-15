@@ -9,7 +9,7 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-/* 
+  /* 
   margin-left: -20px;
   margin-right: -20px; */
 }
@@ -28,6 +28,11 @@ hr {
 .jumbotron {
   margin-bottom: 0;
 }
+
+nav {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
 #signup {
   padding-top: 60px;
   padding-left: 100px;
@@ -121,8 +126,8 @@ hr {
 }
 #hero {
   float: right;
-  padding-right: 40px;
-  padding-left: 40px;
+  /* padding-right: 40px;
+  padding-left: 40px; */
 }
 
 #demo-section {
@@ -154,7 +159,7 @@ h2 {
 }
 
 footer {
-  background-color: #F7FFF7;
+  background-color: #f7fff7;
 }
 
 .carousel-inner .carousel-item .img-box {
