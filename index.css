@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('DM Sans Regular'), local('DMSans-Regular'),
-    url('./fonts/DMSans-Regular.ttf') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./fonts/DMSans-Medium.ttf') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
 #demo-contact-section {
@@ -13,7 +13,7 @@
 
 #demo-contact-section button {
   /* background-color: #41D3BD; */
-  margin: 10px;
+  margin: 2px;
 }
 
 body {
