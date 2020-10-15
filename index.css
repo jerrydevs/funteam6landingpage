@@ -19,12 +19,6 @@ h1 {
   color: #373fff;
 }
 
-hr {
-  width: 40%;
-  border-top: 1px solid #1a535c;
-  margin-top: -32px;
-}
-
 .jumbotron {
   margin-bottom: 0;
 }
@@ -64,7 +58,7 @@ nav {
 
 #Heading {
   font-family: 'DM Sans', sans-serif;
-  padding-left: 45px;
+  /* padding-left: 45px; */
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 0;
@@ -73,7 +67,7 @@ nav {
 #intro {
   font-family: 'DM Sans', sans-serif;
   font-size: 20px;
-  padding-left: 45px;
+  /* padding-left: 45px; */
   color: #1a535c;
   padding-top: -20px;
 }
@@ -232,7 +226,7 @@ i {
 
 @media (min-width: 320px) and (max-width: 640px) {
   #hero {
-    width: 110%;
+    width: 100%;
   }
   .carousel-inner .carousel-item p {
     font-size: 14px;
