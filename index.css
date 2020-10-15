@@ -1,3 +1,12 @@
+/* dm-sans-regular - latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('DM Sans Regular'), local('DMSans-Regular'),
+    url('./fonts/DMSans-Regular.ttf') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
 #demo-contact-section {
   margin: 50px;
 }
@@ -5,4 +14,96 @@
 #demo-contact-section button {
   /* background-color: #41D3BD; */
   margin: 10px;
+}
+
+body {
+  font-family: 'DM Sans';
+}
+
+/* Carousel styling */
+h2 {
+  position: relative;
+}
+
+.carousel-inner .carousel-item .img-box {
+  width: 135px;
+  height: 135px;
+}
+.carousel-control-prev {
+  left: -100px;
+}
+.carousel-control-next {
+  right: -100px;
+}
+.carousel-indicators {
+  top: 320px;
+}
+
+/* Color change for control */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Styling for Button */
+#buttonSec {
+  margin: 3em;
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #007bff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+a.button1:hover {
+  color: #000000;
+  background-color: #1c538f;
+}
+
+/* Footer */
+.footerIcons {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+i {
+  margin-right: 0.2em;
+}
+
+/* Responsive */
+
+@media all and (max-width: 30em) {
+  a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .carousel-inner .carousel-item p {
+    font-size: 14px;
+  }
+  .carousel-control-prev {
+    left: -40px;
+  }
+  .carousel-control-next {
+    right: -40px;
+  }
+  .carousel-indicators {
+    top: 400px;
+  }
 }
